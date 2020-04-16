@@ -2,22 +2,22 @@
 <svg contentScriptType="text/ecmascript" width="800px"
      xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
      style="height: 600px; display: block;" contentStyleType="text/css"
-     id="chart_svg" height="600px" preserveAspectRatio="xMidYMid meet"
+     height="600px" id="chart_svg" preserveAspectRatio="xMidYMid meet"
      xmlns="http://www.w3.org/2000/svg" version="1.0">
     <defs>
         <g>
             <g>
                 <clipPath id="clip-1">
-                    <rect x="41.203125" width="754.796875" y="35" height="495"/>
+                    <rect x="41.203125" width="754.796875" height="495" y="35"/>
                 </clipPath>
             </g>
         </g>
     </defs>
     <g>
         <g>
-            <rect fill="rgb(255,255,255)" x="0" width="800" y="0" height="600"/>
+            <rect fill="rgb(255,255,255)" x="0" width="800" height="600" y="0"/>
             <rect fill="rgb(255,255,255)" x="41.203125" width="754.796875"
-                  y="35" height="495"/>
+                  height="495" y="35"/>
             <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
                   x1="76.000" x2="76.000" y1="35.000" y2="530.000"
                   style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
@@ -706,28 +706,26 @@
                   stroke="rgb(100,100,100)"/>
             <g class="dataArea" clip-path="url(#clip-1)">
                 <rect fill="rgb(0, 0, 0)" x="41.203125" width="754.796875"
-                      y="35" height="495" fill-opacity="0"/>
+                      fill-opacity="0" height="495" y="35"/>
                 <path fill="none"
                       d="M 75.512 507.500L 95.694 507.500L 115.876 507.500L 136.057 507.500L 156.239 507.500L 176.421 507.500L 196.602 113.032L 216.784 318.316L 236.966 217.813L 257.148 300.926L 277.329 258.455L 297.511 57.500L 317.693 58.854L 337.875 71.731L 358.056 57.907L 378.238 124.337L 398.420 208.153L 418.602 236.989L 438.783 243.993L 458.965 219.819L 479.147 214.280L 499.329 179.955L 519.510 143.550L 539.692 130.869L 559.874 119.410L 580.055 114.358L 600.237 109.298L 620.419 113.425L 640.601 113.672L 660.782 109.356L 680.964 110.910L 701.146 116.208L 721.328 117.534L 741.509 113.917L 761.691 108.003"
                       style="stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; "
                       stroke="rgb(100,225,213)"/>
             </g>
-            <rect fill="rgb(255,255,255)" x="678.28125" width="12" y="574"
-                  height="18" fill-opacity="0.001"/>
-            <rect fill="rgb(100,225,213)" x="680.28125" width="8" y="580.5"
-                  height="5"/>
+            <rect fill="rgb(255,255,255)" x="678.28125" width="12"
+                  fill-opacity="0.001" height="18" y="574"/>
+            <rect fill="rgb(100,225,213)" x="680.28125" width="8" height="5"
+                  y="580.5"/>
             <rect fill="rgb(255,255,255)" x="690.28125" width="101.71875"
-                  y="574" height="18" fill-opacity="0.001"/>
-            <text x="692.28125"
-                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 12px"
-                  y="587.48">
+                  fill-opacity="0.001" height="18" y="574"/>
+            <text style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 12px"
+                  x="692.28125" y="587.48">
                 deaths/cases ratio
             </text>
-            <rect fill="rgb(255,255,255)" x="0" width="372.734375" y="0"
-                  height="31" fill-opacity="0.001"/>
-            <text x="2"
-                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 24px"
-                  y="24.14">
+            <rect fill="rgb(255,255,255)" x="0" width="372.734375"
+                  fill-opacity="0.001" height="31" y="0"/>
+            <text style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 24px"
+                  x="2" y="24.14">
                 Italy&apos;s Daily Covid-19 Death/Cases
             </text>
         </g>
